@@ -9,7 +9,7 @@
  * @returns {number} the number rounded to places
  */
  
-function roundTo(value, places, roundMethod) {
+function roundto(value, places, roundMethod) {
 	var rtn = 0;
 	var factorial = Math.pow(10, places);
 	
@@ -34,4 +34,4 @@ function roundTo(value, places, roundMethod) {
 	return rtn;
 }
 
-exports = module.exports = roundTo;
+exports = module.exports = roundto;

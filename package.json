@@ -1,5 +1,5 @@
 {
-  "name": "roundTo",
+  "name": "roundto",
   "description": "Function to round a number to decimal places",
   "version": "0.0.1",
   "author": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mbayfield/roundTo"
+    "url": "https://github.com/mbayfield/roundto"
   },
   "devDependencies": {
   	"mocha": "2.2.5",
