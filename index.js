@@ -10,8 +10,8 @@
  */
  
 function roundTo(value, places, roundMethod) {
-	let rtn = 0;
-	let factorial = Math.pow(10, places);
+	var rtn = 0;
+	var factorial = Math.pow(10, places);
 	
 	roundMethod = typeof roundMethod !== 'undefined' ? roundMethod : 'round';
 	
@@ -24,7 +24,6 @@ function roundTo(value, places, roundMethod) {
 			rtn = Math.ceil( value * factorial );
 			break;
 		default:
-			console.log('round method');
 			rtn = Math.round( value * factorial );
 			break;
 	}
@@ -34,7 +33,5 @@ function roundTo(value, places, roundMethod) {
 	
 	return rtn;
 }
-
-// console.log(roundTo(12.1232,3,'ceiling'));
 
 exports = module.exports = roundTo;
