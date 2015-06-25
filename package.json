@@ -1,6 +1,6 @@
 {
   "name": "roundto",
-  "description": "Function to round a number to decimal places",
+  "description": "Function to round a number to a specified number decimal places",
   "version": "0.0.2",
   "author": {
     "name": "Mark Bayfield"
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mbayfield/roundto"
+    "url": "https://github.com/mbayfield/roundTo.git"
   },
   "devDependencies": {
   	"mocha": "2.2.5",
@@ -19,6 +19,7 @@
   "keywords": [
     "round",
     "decimal",
-    "places"
+    "places",
+    "formatting"
   ]
 }
