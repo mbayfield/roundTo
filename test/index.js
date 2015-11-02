@@ -1,3 +1,4 @@
+var should = require('should');
 var roundto = require('../');
 
 describe('round-to', function() {

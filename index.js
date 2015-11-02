@@ -8,13 +8,13 @@
  * @param {String} the rounding method to be used
  * @returns {number} the number rounded to places
  */
- 
+
 function roundto(value, places, roundMethod) {
 	var rtn = 0;
 	var factorial = Math.pow(10, places);
-	
+
 	roundMethod = typeof roundMethod !== 'undefined' ? roundMethod : 'round';
-	
+
 	switch( roundMethod ) {
 		case 'floor':
 		case 'int':
@@ -27,10 +27,10 @@ function roundto(value, places, roundMethod) {
 			rtn = Math.round( value * factorial );
 			break;
 	}
-	
+
 	// Divide number by factorial to get decimal places
 	rtn = rtn / factorial;
-	
+
 	return rtn;
 }
 
