@@ -3,6 +3,8 @@ roundto
 
 Rounds a number to specified number of decimal places
 
+[![Build Status](https://travis-ci.org/mbayfield/roundTo.svg?branch=master)](https://travis-ci.org/mbayfield/roundTo)
+
 Installation
 --------
 
